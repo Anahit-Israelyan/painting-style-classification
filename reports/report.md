@@ -326,7 +326,7 @@ Grad-CAM computes the gradient of the predicted class score with respect to the
 activations of ResNet18's last convolutional block (`layer4[-1]`), producing a
 per-image spatial attention heatmap.
 
-*Figure pending: `40_resnet18_gradcam.png` — regenerate by running the Grad-CAM section of `02_train_classifier` in Colab.*
+*Figure pending: ResNet18 Grad-CAM — regenerate in Colab and save as reports/figures/40_resnet18_gradcam.png.*
 
 Key observations:
 - **Impressionism / Naturalism**: the model attends to **brushstroke texture** and
