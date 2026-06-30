@@ -21,7 +21,7 @@ and (3) gradient boosting on the learned embeddings with XAI interpretation.
 | SimpleCNN (baseline) | ~0.56 | ~0.51 | — |
 | **ResNet18 transfer** | **0.757** | **0.732** | — |
 | EfficientNet-B0 transfer | ~0.74 | ~0.72 | — |
-| SimCLR linear probe (Task 1b) | — | — | — |
+| SimCLR linear probe (Task 1b) | 0.388 | 0.361 | 0.381 |
 
 ### Task 2 — VAE Latent Space + Clustering
 
@@ -46,7 +46,7 @@ and (3) gradient boosting on the learned embeddings with XAI interpretation.
 ## Project Structure
 
 ```
-image_classification_project/
+painting-style-classification/
 ├── notebooks/              # Run in order 01 → 05
 │   ├── 01_eda_and_split.ipynb
 │   ├── 02_train_classifier.ipynb       # Task 1 — supervised + Grad-CAM XAI
