@@ -1,9 +1,9 @@
 ,ArtDeco,Cubism,Impressionism,Japonism,Naturalism,Rococo,cartoon,photo
-ArtDeco,3,2,0,2,0,0,0,2
-Cubism,6,25,1,7,3,5,8,0
-Impressionism,0,3,2,8,5,5,7,6
-Japonism,0,4,0,21,2,0,3,1
-Naturalism,5,4,1,8,6,1,4,4
-Rococo,2,3,1,1,0,9,1,1
-cartoon,0,2,0,0,1,1,7,0
-photo,0,1,0,3,2,5,4,6
+ArtDeco,2,1,0,3,1,0,1,1
+Cubism,4,30,8,5,1,0,3,4
+Impressionism,0,6,17,4,2,3,1,3
+Japonism,1,2,3,23,0,0,2,0
+Naturalism,1,3,6,4,15,1,3,0
+Rococo,2,0,2,1,1,8,1,3
+cartoon,0,3,2,0,0,0,4,2
+photo,0,2,3,0,3,3,1,9
