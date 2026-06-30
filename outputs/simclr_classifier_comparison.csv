@@ -1,0 +1,4 @@
+model,training_type,input_size,test_accuracy,test_macro_f1,test_balanced_accuracy
+SimpleCNN from scratch,Supervised from scratch,128,0.5421,0.4947,0.5174
+ResNet18 transfer learning,Supervised ImageNet transfer,128,0.757,0.7324,0.7629
+SimCLR + linear probe,Self-supervised pretraining + frozen linear probe,128,0.3878504672897196,0.3611151200217276,0.38052442629055533

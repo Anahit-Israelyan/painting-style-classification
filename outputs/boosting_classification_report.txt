@@ -1,0 +1,14 @@
+               precision    recall  f1-score   support
+
+      ArtDeco       0.88      0.78      0.82         9
+       Cubism       0.90      0.96      0.93        55
+Impressionism       0.78      0.78      0.78        36
+     Japonism       0.92      0.74      0.82        31
+   Naturalism       0.79      0.91      0.85        33
+       Rococo       0.88      0.83      0.86        18
+      cartoon       0.89      0.73      0.80        11
+        photo       0.91      0.95      0.93        21
+
+     accuracy                           0.86       214
+    macro avg       0.87      0.84      0.85       214
+ weighted avg       0.86      0.86      0.86       214

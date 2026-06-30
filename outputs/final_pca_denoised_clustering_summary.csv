@@ -1,0 +1,2 @@
+algorithm,pca_dim,k,explained_variance,silhouette,ARI,NMI,purity
+GMM_diag,8,8,0.3827232,0.07334032,0.03640213088186818,0.08364128044281445,0.310126582278481

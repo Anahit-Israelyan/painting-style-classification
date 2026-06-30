@@ -1,0 +1,9 @@
+cluster,size,dominant_label,dominant_label_count,dominant_label_percent,top_3_labels
+0,256,Naturalism,74,28.90625,"Naturalism, Cubism, Impressionism"
+1,56,Cubism,18,32.142857142857146,"Cubism, Japonism, Impressionism"
+2,42,Naturalism,33,78.57142857142857,"Naturalism, cartoon, Japonism"
+3,104,Cubism,40,38.46153846153846,"Cubism, Japonism, Rococo"
+4,179,Japonism,55,30.726256983240223,"Japonism, Cubism, Impressionism"
+5,154,Cubism,30,19.48051948051948,"Cubism, Rococo, cartoon"
+6,209,Impressionism,56,26.794258373205743,"Impressionism, photo, Cubism"
+7,422,Cubism,135,31.990521327014218,"Cubism, Impressionism, photo"

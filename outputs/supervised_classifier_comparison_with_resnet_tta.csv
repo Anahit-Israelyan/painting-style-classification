@@ -1,0 +1,6 @@
+model,input_size,loss,test_accuracy,test_macro_f1,test_balanced_accuracy,tta
+SimpleCNN from scratch,128,Weighted CrossEntropyLoss,0.5421,0.4947,0.5174,False
+ResNet18 transfer learning,128,Weighted CrossEntropyLoss + label smoothing,0.757,0.7324,0.7629,False
+ResNet18 transfer learning + TTA,128,Weighted CrossEntropyLoss + label smoothing,0.7757009345794392,0.7479413332181026,0.7736122748219523,True
+EfficientNet-B0 transfer learning,128,Weighted CrossEntropyLoss + label smoothing,0.7383177570093458,0.7095067458421496,0.7364928082670018,False
+EfficientNet-B0 transfer learning + TTA,128,Weighted CrossEntropyLoss + label smoothing,0.7476635514018691,0.7184873834752739,0.7437447633012149,True

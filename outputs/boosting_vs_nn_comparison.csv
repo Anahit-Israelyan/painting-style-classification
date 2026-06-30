@@ -1,0 +1,4 @@
+model,accuracy,macro_f1,balanced_accuracy
+Gradient Boosting (HistGBM),0.8598130841121495,0.8481257700240209,0.8354006656426012
+Gradient Boosting (XGBoost),0.8738317757009346,0.8647629742200609,0.8574966252385607
+Neural Net (VAE classifier head),0.8318,0.8182,0.8129

@@ -1,0 +1,5 @@
+model,input,training_type,test_accuracy,test_macro_f1,test_balanced_accuracy
+SimpleCNN from scratch,image pixels,supervised neural network,0.5421,0.4947,0.5174
+ResNet18 + TTA,image pixels,supervised transfer learning,0.7757,0.7479,0.7736
+SimCLR + fine-tuning,image pixels,self-supervised pretraining + fine-tuning,0.4813,0.4684,0.4892
+XGBoost on VAE embeddings,VAE latent embeddings (raw),gradient boosting on VAE embeddings,0.4252336448598131,0.34974201979529496,0.3583138411767444
