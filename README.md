@@ -10,6 +10,8 @@ Three tasks are addressed: (1) supervised classification baselines and SimCLR
 self-supervision, (2) VAE-based latent-space learning and unsupervised clustering,
 and (3) gradient boosting on the learned embeddings with XAI interpretation.
 
+A condensed, equation-rich summary of the whole project is available at [`reports/bostongene_full_project_report.pdf`](reports/bostongene_full_project_report.pdf).
+
 ---
 
 ## Results at a Glance
