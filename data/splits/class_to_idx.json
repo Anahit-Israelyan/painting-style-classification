@@ -1,0 +1,10 @@
+{
+    "ArtDeco": 0,
+    "Cubism": 1,
+    "Impressionism": 2,
+    "Japonism": 3,
+    "Naturalism": 4,
+    "Rococo": 5,
+    "cartoon": 6,
+    "photo": 7
+}

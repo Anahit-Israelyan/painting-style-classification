@@ -1,0 +1,10 @@
+label,test,train,val,All
+ArtDeco,9,46,10,65
+Cubism,55,255,55,365
+Impressionism,36,168,36,240
+Japonism,31,142,30,203
+Naturalism,33,153,32,218
+Rococo,18,82,17,117
+cartoon,11,52,12,75
+photo,21,97,21,139
+All,214,995,213,1422

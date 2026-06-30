@@ -1,0 +1,48 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# BostonGene IML-2 Painting Style Classification
+# Python dependencies
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# DINOv2 note:
+#   DINOv2 (ViT-B/14) is loaded at runtime via torch.hub from
+#   https://github.com/facebookresearch/dinov2
+#   No extra package is required — torch.hub.load() downloads the model on first run.
+#   Ensure outbound internet access when running 03b_class_regularized_vae_embeddings.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Core deep learning
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Data handling
+pandas>=2.0.0
+
+# Machine learning
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+
+# Dimensionality reduction / visualisation
+umap-learn>=0.5.5
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Image handling
+pillow>=10.0.0
+opencv-python>=4.8.0
+
+# Explainability
+shap>=0.43.0
+
+# Utilities
+tqdm>=4.65.0
+
+# Jupyter environment
+jupyter>=1.0.0
+ipykernel>=6.25.0
+nbformat>=5.9.0
