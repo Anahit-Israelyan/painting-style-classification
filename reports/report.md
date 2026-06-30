@@ -72,8 +72,8 @@ average pooling and a linear head) trained from scratch on 128×128 images.
 
 | Metric | Value |
 |---|---|
-| Test Accuracy | ~0.56 |
-| Macro-F1 | ~0.51 |
+| Test Accuracy | ~0.50 |
+| Macro-F1 | ~0.45 |
 
 The SimpleCNN establishes a weak baseline. Its limited receptive field and lack of
 pre-trained features mean it cannot reliably distinguish texture-based styles.
@@ -326,7 +326,8 @@ Grad-CAM computes the gradient of the predicted class score with respect to the
 activations of ResNet18's last convolutional block (`layer4[-1]`), producing a
 per-image spatial attention heatmap.
 
-*Figure pending: ResNet18 Grad-CAM — regenerate in Colab and save as reports/figures/40_resnet18_gradcam.png.*
+![ResNet18 Grad-CAM](figures/40_resnet18_gradcam.png)
+*Grad-CAM heatmaps on test images. The model attends to figures and stylised elements; misclassifications fall on genuine cross-style visual overlap.*
 
 Key observations:
 - **Impressionism / Naturalism**: the model attends to **brushstroke texture** and
@@ -369,7 +370,7 @@ at each stage:
 1. **Imbalanced 8-class data** → macro-F1 as primary metric, class-weighted loss,
    PadToSquare preprocessing to preserve style-diagnostic composition.
 
-2. **SimpleCNN from scratch** → ~0.51 macro-F1. Too weak. ImageNet transfer learning
+2. **SimpleCNN from scratch** → ~0.45 macro-F1. Too weak. ImageNet transfer learning
    is necessary given the small dataset.
 
 3. **ResNet18 transfer** → 0.732 macro-F1. Solid baseline (Task 1). SimCLR explored

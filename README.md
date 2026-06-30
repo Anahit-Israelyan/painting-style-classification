@@ -18,7 +18,7 @@ and (3) gradient boosting on the learned embeddings with XAI interpretation.
 
 | Model | Accuracy | Macro-F1 | Balanced Acc |
 |---|---|---|---|
-| SimpleCNN (baseline) | ~0.56 | ~0.51 | — |
+| SimpleCNN (baseline) | ~0.50 | ~0.45 | - |
 | **ResNet18 transfer** | **0.757** | **0.732** | — |
 | EfficientNet-B0 transfer | ~0.74 | ~0.72 | — |
 | SimCLR linear probe (Task 1b) | 0.388 | 0.361 | 0.381 |
